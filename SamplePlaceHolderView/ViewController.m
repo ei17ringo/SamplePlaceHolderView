@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIPlaceHolderTextView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIPlaceHolderTextView *textView = [[UIPlaceHolderTextView alloc] initWithFrame:CGRectMake(15, 20, 300, 100)];
+    textView.backgroundColor = [UIColor grayColor];
+    textView.placeholder = @"テキストを入力してください";
+    textView.placeholderColor = [UIColor redColor];
+    
+    [self.view addSubview:textView];
+    
 }
 
 - (void)didReceiveMemoryWarning {

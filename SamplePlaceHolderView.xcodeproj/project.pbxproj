@@ -14,6 +14,7 @@
 		1B9665F21A4938CB0045DA92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9665F11A4938CB0045DA92 /* Images.xcassets */; };
 		1B9665F51A4938CB0045DA92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9665F31A4938CB0045DA92 /* LaunchScreen.xib */; };
 		1B9666011A4938CB0045DA92 /* SamplePlaceHolderViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9666001A4938CB0045DA92 /* SamplePlaceHolderViewTests.m */; };
+		1B96660F1A493CB90045DA92 /* UIPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B96660E1A493CB90045DA92 /* UIPlaceHolderTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1B9665FA1A4938CB0045DA92 /* SamplePlaceHolderViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePlaceHolderViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9665FF1A4938CB0045DA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B9666001A4938CB0045DA92 /* SamplePlaceHolderViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamplePlaceHolderViewTests.m; sourceTree = "<group>"; };
+		1B96660D1A493CB90045DA92 /* UIPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlaceHolderTextView.h; sourceTree = "<group>"; };
+		1B96660E1A493CB90045DA92 /* UIPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlaceHolderTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				1B9665F11A4938CB0045DA92 /* Images.xcassets */,
 				1B9665F31A4938CB0045DA92 /* LaunchScreen.xib */,
 				1B9665E41A4938CB0045DA92 /* Supporting Files */,
+				1B96660D1A493CB90045DA92 /* UIPlaceHolderTextView.h */,
+				1B96660E1A493CB90045DA92 /* UIPlaceHolderTextView.m */,
 			);
 			path = SamplePlaceHolderView;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				1B9665ED1A4938CB0045DA92 /* ViewController.m in Sources */,
 				1B9665EA1A4938CB0045DA92 /* AppDelegate.m in Sources */,
 				1B9665E71A4938CB0045DA92 /* main.m in Sources */,
+				1B96660F1A493CB90045DA92 /* UIPlaceHolderTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
